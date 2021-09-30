@@ -19537,9 +19537,6 @@ table.mceToolbar td {
 a:hover {
   color: #323232;
 }
-.il-panel-listing-std-container > h3 {
-  color: #323232;
-}
 div.ilBlockInfo {
   color: #323232;
 }
@@ -19839,14 +19836,21 @@ div.ilCOPGNoPageContent {
 div.il_droparea {
   border: 1px dashed #323232;
 }
-div.il_droparea:hover,
+div.il_droparea:hover {
+  border-color: #323232;
+  color: #323232;
+  background-color: #f3f8ed;
+}
 div.ilCOPGDropActice,
 .il_droparea_valid_target {
   border-color: #323232;
   color: #323232;
   background-color: #f3f8ed;
 }
-#ilPageEditLegend .il_droparea,
+#ilPageEditLegend .il_droparea {
+  border-color: #323232;
+  color: #323232;
+}
 #ilPageEditLegend .il_droparea:hover {
   border-color: #323232;
   color: #323232;
@@ -19875,6 +19879,7 @@ div.ilTinyMenuSection p {
 }
 .il-panel-listing-std-container > h3 {
   padding: 9px 0;
+  color: #323232;
 }
 .il-panel-listing-std-container > .dropdown {
   padding: 9px 0;

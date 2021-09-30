@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<template xmlns="http://www.w3.org" version="0.109" name="Skin_ILIAS-6_HAFO">
+<template xmlns="http://www.w3.org" version="0.111" name="Skin_ILIAS-6_HAFO">
   <style id="StyleID_ILIAS-6_HAFO" name="Style_ILIAS-6_HAFO" image_directory="images" css_file="StyleID_ILIAS-6_HAFO" sound_directory="sound" font_directory="fonts"/>
 </template>

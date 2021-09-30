@@ -3,18 +3,27 @@ div.ilCOPGNoPageContent {
 }
 div.il_droparea {
     border: 1px dashed @mid-gray;
+    &:hover {
+        border-color: @mid-gray;
+        color: @mid-gray;
+        background-color: @il-highlight-bg;
+    }
 }
-div.il_droparea:hover,
 div.ilCOPGDropActice,
 .il_droparea_valid_target {
     border-color: @mid-gray;
     color: @mid-gray;
     background-color: @il-highlight-bg;
 }
-#ilPageEditLegend .il_droparea,
-#ilPageEditLegend .il_droparea:hover {
-    border-color: @mid-gray;
-    color: @mid-gray;
+#ilPageEditLegend {
+    .il_droparea {
+        border-color: @mid-gray;
+        color: @mid-gray;
+        &:hover {
+            border-color: @mid-gray;
+            color: @mid-gray;
+        }
+    }
 }
 div.ilTinyMenuSection p {
     padding: 2px 5px 2px 0px;
